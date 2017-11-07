@@ -173,9 +173,9 @@ int main()
 
 				if (k == 0)
 				{
-					for (int i = 0; i < m; i++)
+					for (int i = 0; i < n; i++)
 					{
-						for (int j = 0; j < n; j++)
+						for (int j = 0; j < m; j++)
 						{
 							cout << a[i][j] << " ";
 						}
@@ -184,9 +184,9 @@ int main()
 				}
 				else
 				{
-					for (int i = 0; i < n; i++)
+					for (int i = 0; i < m; i++)
 					{
-						for (int j = 0; j < m; j++)
+						for (int j = 0; j < n; j++)
 						{
 							cout << mas[i][j] << " ";
 						}
